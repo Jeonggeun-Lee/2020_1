@@ -128,7 +128,7 @@ int choice()
 	Win_lose result;
 	while(1)
 	{
-		com = random()%3;
+		com = rand()%3;
 		printf(">선택하세요 (1.가위, 2.바위, 3.보, 4.끝내기)?");
 		scanf("%d",&user);
 		if(user == 4)
